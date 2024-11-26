@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog - Casa Tech</title>
+    <link rel="stylesheet" href="blog.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <h1>Casa Tech</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre-nos.html">Sobre Nós</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="blog-hero">
+        <div class="blog-hero-content">
+          <h2>Últimas Notícias e Dicas</h2>
+          <p>Fique por dentro das novidades do mundo da tecnologia</p>
+        </div>
+      </section>
+
+      <section class="blog-posts">
+        <article class="blog-post">
+          <div class="blog-post-wrap">
+            <img
+              src="https://tm.ibxk.com.br/2015/10/05/05181049887613.jpg"
+              alt="Como escolher o melhor processador"
+            />
+            <div class="post-content">
+              <h3>Como Escolher o Melhor Processador para Seu Computador</h3>
+              <p>
+                Descubra os principais fatores para selecionar o processador
+                ideal para suas necessidades.
+              </p>
+            </div>
+          </div>
+          <p class="date">25/11/2024</p>
+          <a href="#" class="read-more">Ler Mais</a>
+        </article>
+
+        <article class="blog-post">
+          <div class="blog-post-wrap">
+            <img
+              src="https://geekconectado.com.br/wp-content/uploads/2024/09/qual-a-diferenca-entre-memoria-ram-e-rom-768x512.webp"
+              alt="Guia de Memória RAM"
+            />
+            <div class="post-content">
+              <h3>Guia Completo de Memória RAM</h3>
+              <p>
+                Entenda a importância da memória RAM e como ela impacta o
+                desempenho do seu computador.
+              </p>
+            </div>
+          </div>
+          <p class="date">22/11/2024</p>
+          <a href="#" class="read-more">Ler Mais</a>
+        </article>
+
+        <article class="blog-post">
+          <div class="blog-post-wrap">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBtU2XcpV7Kl3Rv2D27d9CmnWhrn1FNObrFQ&s"
+              alt="Placas de Vídeo em 2024"
+            />
+            <div class="post-content">
+              <h3>Placas de Vídeo em 2024: O Que Esperar</h3>
+              <p>
+                Conheça as últimas tendências e novidades no mercado de placas
+                gráficas.
+              </p>
+            </div>
+          </div>
+          <p class="date">21/11/2024</p>
+          <a href="#" class="read-more">Ler Mais</a>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Casa Tech</h4>
+          <p>Sua loja especializada em peças para computador</p>
+        </div>
+        <div class="footer-section">
+          <h4>Contato</h4>
+          <p>Email: contato@Casa Tech.com.br</p>
+          <p>Tel: (11) 9999-9999</p>
+        </div>
+        <div class="footer-section">
+          <h4>Redes Sociais</h4>
+          <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2024 Casa Tech. Todos os direitos reservados.
+      </div>
+    </footer>
+
+    <script>
+      // Mobile menu toggle
+      const mobileMenuBtn = document.querySelector(".mobile-menu-btn");
+      const navLinks = document.querySelector(".nav-links");
+
+      mobileMenuBtn.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
