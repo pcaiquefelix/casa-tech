@@ -7,6 +7,7 @@ This repository contains the HTML files for the Casa Tech website, an online sto
 * **HTML:** Markup language for structuring the pages.
 * **CSS:** Styling language for visual design of the pages.
 * **Claude.ai:** AI used to fast coding the project.
+* **Google Gemini:** AI used to help the README.md file's creation.
 
 ## Project Structure
 * **index.html:** Homepage of the site.
